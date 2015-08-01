@@ -1,0 +1,51 @@
+---
+title: "Untitled"
+author: "Jo??o Coelho"
+date: "30 de Julho de 2015"
+output: word_document
+---
+
+```{r, eval=FALSE}
+
+LMT(examples){
+   root <- new Node()
+   alpha <- getCARTAlpha(examples)
+   root.buildTree(examples, null)
+   root.CARTprune(alpha)
+}
+
+buildTree(examples, inititalLinearModels){
+   numIterations =
+      CV_Iterations(examples, inititalLinearModels)
+   initLogitBoost(initialLinearModels)
+   linearModels <- copyOf(inititalLinearModels)
+   for i = 1...numIterations{
+      logitBoostIteration(linearModels, examples)
+   }
+   split <- findSplit(examples)
+   localExamples <- split.splitExamples(examples)
+   sons <- new Nodes[split.numSubsets()]
+   for s = 1...sons.length{
+      sons.buildTrees(localExamples[s], nodeModels)
+   }
+}
+
+
+CV_Iterations(examples, initialModels) {
+   for fold = 1...5 {
+      initLogitBoost(inititalLinearModels)
+      # split into training/test sets
+      train <- trainCV(fold)
+      test <- testCV(fold)
+      linearModels <- copyOf(inititalLinearModels)
+      for i = 1...200{
+         logitBoostIteration(linearModels, train)
+         logErros[i] += error(test)         
+      }
+   }
+   numIterations = findBestIteration(logErrrors)
+   return numIterations
+}
+
+```
+

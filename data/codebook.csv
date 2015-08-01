@@ -1,0 +1,36 @@
+landmark,type,description,abbreviation
+1,2,Most projecting point of the lateral epicondyle,S000
+2,1,Proximal junction point between lateral epicondyle and capitulum,S001
+3,1,Distal junction point between lateral epicondyle and capitulum,S002
+7,2,Proximal junction point between medial trochlea and medial epicondyle,S003
+8,2,Most projecting point of the medial epicondyle,S004
+9,1,Proximal anterior point of the lateral trochlea,S005
+10,1,Proximal anterior point of the medial trochlea,S006
+11,1,Proximal posterior point of the lateral trochlea,S007
+12,1,Proximal posterior point of the medial trochlea,S008
+13,2,Proximal point of the olecranon fossa,S009
+14,2,Distal point of the olecranon fossa,S010
+15,2,Lateral point of the olecranon fossa,S011
+16,2,Medial point of the olecranon fossa,S012
+17,2,Maximum curvature between medial epicondyle and shaft,S013
+18,2,Most prominent point of the lateral supracondylar ridge,S014
+19,1,Proximal point of the lateral supracondylar ridge,S015
+20,2,Middle point of the coracobrachial insertion,S016
+25,1,Distal point of the greater tubercle crest,S017
+26,1,Distal point of the lesser tubercle crest,S018
+27,2,Posterior point of the greater tubercle surface,S019
+28,2,Lateral point of the greater tubercle surface,S020
+29,2,Proximal point of the greater tubercle surface,S021
+30,2,Medial point of the greater tubercle surface,S022
+31,2,Most projected point of the anterior surface of the greater tubercle,S023
+32,2,Proximal anterior point where intertubercular groove is between both tubercles,S024
+33,2,Most projecting point of the lateral surface of the lesser tubercle,S025
+34,2,Proximal point of the lesser tubercle surface,S026
+35,2,Anterior point of the lesser tubercle surface,S027
+36,2,Distal point of the lesser tubercle surface,S028
+37,2,Posterior point of the lesser tubercle surface,S029
+38,1,Junction point between the humeral head perimeter and long head of the biceps brachii,S030
+39,2,Proximal point of the humeral head perimeter,S031
+40,2,Posterior point of the humeral head perimeter,S032
+41,2,Distal point of the humeral head perimeter,S033
+42,2,Anterior point of the humeral head perimeter,S034
